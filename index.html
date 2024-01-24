@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link
+  href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  rel="stylesheet"
+/>
+    <title>Login page</title>
+</head>
+<body>
+    <div class="head_section">
+        
+           <h2>LOGO</h2>
+           
+        <ul>
+            <a href="\">Home</a>
+            <a href="\">about us</a>
+            <a href="\">services</a>
+            <a href="\">contact us</a>
+            <button class="btn_login">Login</button>
+        </ul>
+    </div>
+
+    <div class="wrapper">
+        <span class="close">
+            <ion-icon name="close-outline" class ="close"></ion-icon>
+        </span>
+        <div class="login-box">
+            <h2>Login</h2>
+        <form action="#">
+            <div class="input_box">
+                <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                <input type="email" required>
+                <label >Email</label>
+            </div>
+            <div class="input_box">
+                <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                <input type="password" required>
+                <label >Password</label>
+            </div>
+            <div class="rember-forgot">
+                <label ><input type="checkbox">Rememeber Me</label>
+                <a href="#">Forgot Password</a>
+                
+            </div>
+            <button class="su-btn" type="submit">Login</button>
+            <div class="login-reg">
+                <p>Don't have account<a href="#" class="Loginlink">Register</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="Reg-box">
+        <h2>Register</h2>
+    <form action="#">
+        <div class="input_box">
+            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+            <input type="text" required>
+            
+            <label >Username</label>
+        </div>
+        <div class="input_box">
+            <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+            <input type="email" required>
+            <label >Email</label>
+        </div>
+        <div class="input_box">
+            <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+            <input type="password" required>
+            <label >Password</label>
+        </div>
+        <div class="rember-forgot">
+            <label ><input type="checkbox">Agree to all term & condition</label>
+            
+           
+
+        </div>
+        <button class="su-btn" type="submit">Sign Up</button>
+        <div class="login-reg">
+            <p>Already have account?<a href="#" class="reglink">Login</a></p>        
+        </div>
+    </form>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
